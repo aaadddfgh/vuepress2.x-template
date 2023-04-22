@@ -32,7 +32,7 @@ jobs:
       #     run_install: true
 
       - name: npm install
-        run: npm install -D vuepress@next && npm i -D @vuepress/plugin-back-to-top@next && npm i -D @vuepress/plugin-search@next  #wrong if without this
+        run: npm install -D vuepress@next && npm i -D @vuepress/plugin-register-components@next && npm i -D @vuepress/plugin-search@next  #wrong if without this
       - run: npm install 
       # run build script
       - name: Build VuePress site
