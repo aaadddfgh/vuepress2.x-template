@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "vuepress2.x-template",
+  "version": "2.0.0-beta.61",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "author": "aaadddfgh",
+  "devDependencies": {
+    "@vuepress/plugin-register-components": "^2.0.0-beta.61",
+    "@vuepress/plugin-search": "^2.0.0-beta.61",
+    "vuepress": "^2.0.0-beta.61"
+  }
+}
