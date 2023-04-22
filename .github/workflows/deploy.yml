@@ -26,7 +26,8 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
-          
+          # choose pnpm version to use
+          version: 6
           # install deps with pnpm
           run_install: true
 
