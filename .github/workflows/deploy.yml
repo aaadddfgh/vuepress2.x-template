@@ -32,10 +32,11 @@ jobs:
       #     run_install: true
 
       - name: npm install
-        run: npm install -D vuepress@next && npm install
+        run: npm install -D vuepress@next #wrong if without this
+        run: npm install 
       # run build script
       - name: Build VuePress site
-        run:  npm docs:build
+        run:  npm run docs:build
       
 
       # please check out the docs of the workflow for more details
