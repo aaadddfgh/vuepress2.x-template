@@ -23,17 +23,20 @@ jobs:
           node-version: 18
           # cache deps for pnpm
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          # choose pnpm version to use
-          version: 6
-          # install deps with pnpm
-          run_install: true
+      # - name: Setup pnpm
+      #   uses: pnpm/action-setup@v2
+      #   with:
+      #     # choose pnpm version to use
+      #     version: 6
+      #     # install deps with pnpm
+      #     run_install: true
 
+      - name: npm install
+        run: npm install
       # run build script
       - name: Build VuePress site
-        run: pnpm docs:build
+        run:  npm docs:build
+      
 
       # please check out the docs of the workflow for more details
       # @see https://github.com/crazy-max/ghaction-github-pages
