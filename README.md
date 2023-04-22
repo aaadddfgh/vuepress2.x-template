@@ -10,6 +10,7 @@ download this repo and run following command then start your site
 npm install
 npm run docs:dev
 ```
+base `docs/.vuepress/config.ts`
 
 # more
 ## plugin
