@@ -1,4 +1,6 @@
 # vuepress2.x-template
+![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/aaadddfgh/vuepress2.x-template/deploy.yml?branch=master&label=Action)
+
 this is a vuepress2.x template project, which helps you fast create an [vuepress](https://github.com/vuepress) site. 
 
 And fast pulish with github-pages
