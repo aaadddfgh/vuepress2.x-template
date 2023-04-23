@@ -1,9 +1,9 @@
 # vuepress2.x-template
 ![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/aaadddfgh/vuepress2.x-template/deploy.yml?branch=master&label=Action)
 
-this is a vuepress2.x template project, which helps you fast create an [vuepress](https://github.com/vuepress) site. 
+this is a vuepress2.x template project, which helps you create a [vuepress](https://github.com/vuepress) site fast fastly. 
 
-And fast pulish with github-pages
+And fast pulish github-pages
 
 # start
 download this repo and run following command then start your site
@@ -19,7 +19,7 @@ base `docs/.vuepress/config.ts`
 this template uses following plugin
 + @vuepress/plugin-register-components : use .vue file in /docs/.vuepress/components
 + @vuepress/plugin-back-to-top : back to top
-+ @vuepress/plugin-search search file title
++ @vuepress/plugin-search: search title in markdown
 ## Github-Action
 fast deploy page to branch `gh-pages`
 
