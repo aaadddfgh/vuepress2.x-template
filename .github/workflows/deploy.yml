@@ -23,17 +23,12 @@ jobs:
           node-version: 18
           # cache deps for pnpm
 
-      # - name: Setup pnpm
-      #   uses: pnpm/action-setup@v2
-      #   with:
-      #     # choose pnpm version to use
-      #     version: 6
-      #     # install deps with pnpm
-      #     run_install: true
-
-      - name: npm install
+      - name: install vuepress@next
         run: npm install -D vuepress@next && npm i -D @vuepress/plugin-register-components@next && npm i -D @vuepress/plugin-search@next  #wrong if without this
-      - run: npm install 
+      
+      - name: install
+        run: npm install 
+
       # run build script
       - name: Build VuePress site
         run:  npm run docs:build
